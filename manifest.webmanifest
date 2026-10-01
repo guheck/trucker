@@ -3,7 +3,7 @@
   "short_name": "Trucker",
   "description": "Truco de dupla com a força das cartas do poker.",
   "lang": "pt-BR",
-  "id": "./",
+  "id": "/trucker/",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",
