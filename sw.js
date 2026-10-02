@@ -1,8 +1,8 @@
 // Service worker padrão dos jogos (app instalável que abre rápido e funciona sem internet).
 // Copie para a pasta public/ do jogo (vai para a raiz do build, ao lado do index.html).
-// O publicar.ps1 troca 2026.10.01-1835 pela data da publicação: cada versão nova apaga o cache antigo
+// O publicar.ps1 troca 2026.10.01-2240 pela data da publicação: cada versão nova apaga o cache antigo
 // e o jogo baixa de novo o que precisar (quem abre o app com internet já pega a versão nova).
-const VERSAO = '2026.10.01-1835';
+const VERSAO = '2026.10.01-2240';
 // vários jogos podem morar no mesmo site (ex.: guheck.github.io/jogo-a e /jogo-b): o nome do cache leva o endereço do jogo
 const PREFIXO = `jogo:${self.registration.scope}:`;
 const CACHE = PREFIXO + VERSAO;
